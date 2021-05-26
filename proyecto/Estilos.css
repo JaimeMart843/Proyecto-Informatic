@@ -1,0 +1,200 @@
+#principal{
+	width: 1000px;
+	height: auto;overflow: hidden;
+	border: px solid #FFFFFF;
+	margin: auto;
+	text-align: center;
+	background: #16A085;
+	font-family: Comic Sans MS, sans-serif;
+	
+}
+ header{
+ 	width:1000px;
+ 	height:90px;
+ 	border:7px solid#34495E;
+ 	float:left;
+ 	background:#3498DB;
+
+ }
+ #logo{
+ 	width:300px;
+ 	height:10px;
+ 	border:3px solid#;
+ 	float:left;
+ 	line-height: 400px;
+	line-height: 20px;
+
+ }
+.menu{
+	width: 600px;
+	height:50px;
+	border:2px solid#ccc;
+	float:right;
+	margin-top:40px;
+	background:black;
+
+}
+
+#categorias{
+		width:1200px;
+		height:auto;overflow:hidden;
+		border:7px solid#34495E;
+		margin-top:10px;
+	}
+	.uno{
+		width:210px;
+		height:auto;overflow:hidden;
+		border:0 solid;
+		float:left;
+		padding:1px;
+		text-align:center;
+		margin-right:10px;
+		margin-left:20px;
+		background: #;
+		font-family: Kristen ITC,sans-serif;
+		color: #FDFEFE;
+	}
+	.dos{
+        width:1000px;
+		height:auto;overflow:hidden;
+		border:0 solid;
+		float:left;
+		padding:1px;
+		text-align:center;
+		margin-right:10px;
+		margin-left:20px;
+		background: #;
+		font-family: Kristen ITC,sans-serif;
+		color: #FDFEFE;
+
+	}
+    .leer-mas{
+     text-decoration: none;
+     border:3px solid#3498DB;
+     padding: 7px 7px 7px 7px;
+     margin:5px;
+     margin-top: 5px;
+     color: #2C3E50 ;
+     font-family: Comic Sans MS, sans-serif;
+     background: #3498DB;
+    }
+
+    .leer-mas:hover{
+      background:#A569BD;
+      color:#fff;
+      transition:background 1s, color 1s;
+    }
+
+    #header{
+    	margin: auto;
+    	width: 530px;
+    	max-height: px;
+    	font-family: impact, sans-serif;
+    	float: right;
+    }
+
+    ul, ol{
+    	list-style: none;
+    }
+
+    .nav li a{
+    	background-color:#5FD65D;
+    	color: black;
+    	text-decoration: none;
+    	padding: 10px 15px;
+    	display: block;
+    }
+    .nav li a:hover{
+    	background-color: #60AB42;
+    }
+
+    .nav> li {
+    	float: left;
+    }
+
+    .nav li ul {
+    	display: none;
+    	position: absolute;
+    	min-width: 140px;
+    }
+
+    .nav li:hover > ul{
+    	display: block;
+    }
+
+    .nav li ul li{
+    	position: relative;
+    }
+
+    .nav li ul li ul{
+    	right: -140px;
+    	top: 0px;
+
+    }
+
+    .container{
+       margin: auto;
+       width: 560px;
+       padding: 20px;
+   }
+
+   ul, li {
+       padding: 0;
+       margin: 0;
+       list-style: none;
+    }
+
+    ul.slider{
+      position: relative;
+      width: 500px;
+      height: 400px;
+    }
+
+    ul.slider li{
+    	position: absolute;
+    	left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        background:#16A085;
+    }
+
+    ul.slider li img{
+       width: 100%;
+       height: 400px;
+       object-fit: cover;
+    }
+
+    ul.slider li:first-child {
+    opacity: 1; 
+    }
+
+    ul.slider li:target {
+       opacity: 1;
+    }
+
+    .menu{
+       text-align: center;
+       margin: 20px;
+    }
+
+     .menu li{
+       display: inline-block;
+       text-align: center;
+    }
+
+    .menu li a{
+       display: inline-block;
+       font-family: impact;
+       color: white;
+       text-decoration: none;
+       background-color: #3498DB;
+       padding: 10px;
+       width: 20px;
+       height: 20px;
+       font-size: 20px;
+       border-radius: 100%;
+    }
+
